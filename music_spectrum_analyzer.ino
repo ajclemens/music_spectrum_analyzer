@@ -3,7 +3,7 @@
 #include <SPI.h>
 
 #define SAMPLES 64            //Must be a power of 2
-#define HARDWARE_TYPE MD_MAX72XX::FC16_HW   // Set display type  so that  MD_MAX72xx library treets it properly
+#define HARDWARE_TYPE MD_MAX72XX::FC16_HW   // Set display type  so that  MD_MAX72xx library treats it properly
 #define MAX_DEVICES  4   // Total number display modules
 #define CLK_PIN   13  // Clock pin to communicate with display
 #define DATA_PIN  11  // Data pin to communicate with display
